@@ -1,0 +1,5 @@
+framework:
+    secret: '%env(APP_SECRET)%'
+    serializer:
+        mapping:
+            paths: ['%kernel.project_dir%/config/serializer']

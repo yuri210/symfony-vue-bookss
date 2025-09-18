@@ -1,0 +1,41 @@
+# --- Symfony / PHP ---
+/vendor/
+/var/
+/node_modules/
+/public/bundles/
+/.env.local
+/.env.local.php
+/.env.*.local
+/.phpunit.result.cache
+/.idea/
+/.vscode/
+/.cache/
+/composer.lock # (opcional, si no quieres fijar versiones exactas)
+symfony.lock   # (opcional, lo mismo que composer.lock)
+
+# --- Logs & cache ---
+/*.log
+*.cache
+/var/logs/
+/var/cache/
+
+# --- Docker ---
+/docker/*.log
+/db_data/
+/.docker
+
+# --- Frontend ---
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.vite
+/frontend/.cache
+
+# --- Tests ---
+/coverage/
+/phpunit.xml.dist
+/.phpunit.cache
+
+# --- OS / IDE ---
+.DS_Store
+Thumbs.db
+*.swp
