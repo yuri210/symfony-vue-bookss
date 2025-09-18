@@ -134,13 +134,10 @@ curl -X GET http://localhost:8000/api/books
 
 ### Probar POST /api/reviews
 ```bash
-curl -X POST http://localhost:8000/api/reviews \
+curl -i -X POST http://localhost:8000/api/reviews \
   -H "Content-Type: application/json" \
-  -d '{
-    "book_id": 1,
-    "rating": 5,
-    "comment": "Increíble libro, muy recomendado"
-  }'
+  --data-raw '{"book_id":17,"rating":5,"comment":"Increible libro, muy recomendado"}'
+
 ```
 
 ### Probar validaciones (ejemplo de error)
