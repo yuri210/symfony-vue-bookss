@@ -13,7 +13,7 @@ Sistema de gestión de libros y reseñas desarrollado con Symfony 6 en el backen
 
 ### 1. Clonar el repositorio
 ```bash
-git clone https://github.com/yuri210/symfony-vue-books.git
+git clone https://github.com/yuri210/symfony-vue-bookss.git
 cd symfony-vue-books
 ```
 
